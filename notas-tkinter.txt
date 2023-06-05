@@ -1,0 +1,22 @@
+from tkinter import * -> forma de importarlo. Es una libreia estandar. No hace flata instalar
+
+1   Importacion -> import tkinter as tk
+
+2   Crear  y el loop principal -> 
+        root = tkinter.Tk()
+        root.mainloop()
+
+3   Configuración de la pantalla
+        root.title("Hola Mundo")
+        root.geometry("800x600+400+200")
+            tamaño de la pantalla + Posición en la pantalla del ordenador -> 200x200+5+30
+
+4   Todo componente de la pantalla tiene que declararse y asignar sus propiedades
+        label = tk.Label(root, text="Hola Mundo")
+
+5   Asignarle una geometria -> posicionarlo en la pantalla del programa
+    Hay 3 tipos de librerias
+        a.  Place -> label.place(x=100, y=100)
+        b.  Pack -> label1.pack(side=tk.LEFT) -> geometria responsive
+        c.  Grid -> 
+6   Varaçiables de control. Son 
